@@ -7,75 +7,103 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         .container {
-            width: 80%;
+            width: 90%;
             margin: 20px auto;
             background: #fff;
             padding: 20px;
-            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .article {
             margin-bottom: 40px;
         }
+        .article img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
         .article h2 {
-            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
         }
         .article p {
-            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 10px;
         }
-        iframe {
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 315px;
+            height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
-
     <div class="container">
-        <h1>EduPage Articles</h1>
-
         <!-- Article 1 -->
         <div class="article">
-            <h2>How to Study Effectively</h2>
-            <p>Learn the best tips and tricks to enhance your study routine and improve retention.</p>
-            <iframe src="https://www.youtube.com/embed/2EQLVg16zxM" allowfullscreen></iframe>
+            <h2>Article Title 1</h2>
+            <img src="image1.jpg" alt="Image for Article 1">
+            <p>This is the content for the first article. It provides some detailed information about the topic.</p>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+            </div>
         </div>
 
         <!-- Article 2 -->
         <div class="article">
-            <h2>Understanding Algebra</h2>
-            <p>Algebra can be challenging, but this video breaks down the basics to make it easier.</p>
-            <iframe src="https://www.youtube.com/embed/ZgADaRTFf_U" allowfullscreen></iframe>
+            <h2>Article Title 2</h2>
+            <img src="image2.jpg" alt="Image for Article 2">
+            <p>This is the content for the second article. It explores another interesting subject matter.</p>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/9bZkp7q19f0" allowfullscreen></iframe>
+            </div>
         </div>
 
         <!-- Article 3 -->
         <div class="article">
-            <h2>The Importance of Physical Education</h2>
-            <p>Discover why staying active is crucial for both physical and mental health.</p>
-            <iframe src="https://www.youtube.com/embed/l2M1T5zCIHo" allowfullscreen></iframe>
+            <h2>Article Title 3</h2>
+            <img src="image3.jpg" alt="Image for Article 3">
+            <p>This is the content for the third article. It provides insights into a different topic.</p>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/V-_O7nl0Ii0" allowfullscreen></iframe>
+            </div>
         </div>
 
         <!-- Article 4 -->
         <div class="article">
-            <h2>History of the Ancient World</h2>
-            <p>Explore the fascinating history of ancient civilizations in this informative video.</p>
-            <iframe src="https://www.youtube.com/embed/xn_VH9IGrZ4" allowfullscreen></iframe>
+            <h2>Article Title 4</h2>
+            <img src="image4.jpg" alt="Image for Article 4">
+            <p>This is the content for the fourth article. It delves into more advanced concepts.</p>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/oHg5SJYRHA0" allowfullscreen></iframe>
+            </div>
         </div>
 
         <!-- Article 5 -->
         <div class="article">
-            <h2>Introduction to Programming</h2>
-            <p>This video is perfect for beginners looking to dive into the world of programming.</p>
-            <iframe src="https://www.youtube.com/embed/dGVVtS7RvKA" allowfullscreen></iframe>
+            <h2>Article Title 5</h2>
+            <img src="image5.jpg" alt="Image for Article 5">
+            <p>This is the content for the fifth article. It wraps up the series with some final thoughts.</p>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/kJQP7kiw5Fk" allowfullscreen></iframe>
+            </div>
         </div>
-
     </div>
-
 </body>
 </html>
